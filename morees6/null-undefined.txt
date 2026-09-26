@@ -1,0 +1,1 @@
+undefined means a variable has been declared but no value has been assigned to it, while null is an intentional assignment that represents the absence of a value.
