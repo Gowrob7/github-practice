@@ -1,2 +1,4 @@
 const numbers = [23,45,234,23];
-const arrow = numbers.reduce(addEventListener,)
+const sum = numbers.reduce((total, number) => total + number, 0);
+
+console.log(sum);

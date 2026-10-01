@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #card-container{
+            max-width: 1160px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 10px;
+            margin: 0 auto;
+        }
+        .cared{
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 1px 1px 1px 1px grey;
+            border-radius: 8px;
+        }
+        .cared p{
+            text-align: justify;
+        }
+    </style>
 </head>
 <body>
-    <script src="./closure.js"></script>
+    <h1>API Data Load</h1>
+    <div id="card-container">
+       
+    </div>
+    
+    <!-- বাটনে ক্লিক করলে loadpost ফাংশন কাজ করবে -->
+    <button onclick="loadpost()">Load Posts</button>
+
+    <ol id="পোস্ট-কন্তেনার"></ol>
+
+    <script src="./API_with_json/json.js"></script>
 </body>
 </html>
